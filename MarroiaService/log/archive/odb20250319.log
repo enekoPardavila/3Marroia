@@ -1,0 +1,36 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-19 20:49:55 #1 store] 
+Database 'C:\Users\eneko\Downloads\3Marroia\2marroia252.zip_expanded\2marroia252\flights.odb' is opened by 9736@enekoParda
+
+[2025-03-19 20:49:55 #2 type] 
+Type domain.Flight is not enhanced.
+
+[2025-03-19 20:49:55 #3 type] 
+Type domain.ConcreteFlight is not enhanced.
+
+[2025-03-19 20:49:59 #4 store] 
+Database 'C:\Users\eneko\Downloads\3Marroia\2marroia252.zip_expanded\2marroia252\flights.odb' is closed by 9736@enekoParda
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-19 21:19:47 #1 store] 
+Database 'C:\Users\eneko\Downloads\3Marroia\2marroia252.zip_expanded\2marroia252\flights.odb' is opened by 14744@enekoParda
+
+[2025-03-19 21:19:48 #2 type] 
+Type domain.Flight is not enhanced.
+
+[2025-03-19 21:19:48 #3 type] 
+Type domain.ConcreteFlight is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-19 21:25:04 #1 store] 
+Database 'C:\Users\eneko\Downloads\3Marroia\2marroia252.zip_expanded\2marroia252\flights.odb' is opened by 12164@enekoParda
+
+[2025-03-19 21:25:05 #2 type] 
+Type domain.Flight is not enhanced.
+
+[2025-03-19 21:25:05 #3 type] 
+Type domain.ConcreteFlight is not enhanced.
+
