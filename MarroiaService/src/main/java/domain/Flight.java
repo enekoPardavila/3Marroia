@@ -29,6 +29,10 @@ public Flight(String flightCode, String departingCity, String arrivingCity) {
 	concreteFlights = new ArrayList<ConcreteFlight>();
 }
 
+public Flight() {
+	super();
+}
+
 public String getFlightCode() {
 	return flightCode;
 }

@@ -37,6 +37,10 @@ public ConcreteFlight(String concreteFlightCode, Date date, int businessNumber,i
 	this.flight=flight;
 }
 
+public ConcreteFlight() {
+	super();
+}
+
 public String getConcreteFlightCode() {
 	return concreteFlightCode;
 }

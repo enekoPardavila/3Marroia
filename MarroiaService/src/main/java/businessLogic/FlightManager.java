@@ -22,8 +22,8 @@ public class FlightManager implements FlightManagerInterface{
 	List<ConcreteFlight> listConcreteFlights=new LinkedList<ConcreteFlight>();
 
 		public FlightManager () { 
-			listFlights=new LinkedList<Flight>();
-			listConcreteFlights=new LinkedList<ConcreteFlight>();
+			//listFlights=new LinkedList<Flight>();
+			//listConcreteFlights=new LinkedList<ConcreteFlight>();
 			
 			emf = Persistence.createEntityManagerFactory("objectdb:"+fileName);
 			db = emf.createEntityManager();
@@ -102,7 +102,7 @@ public class FlightManager implements FlightManagerInterface{
 						storeFlight(f6);
 						storeFlight(f7);
 						
-						listFlights.add(f1);
+/*						listFlights.add(f1);
 						listFlights.add(f2);
 						listFlights.add(f3);
 						listFlights.add(f4);
@@ -115,7 +115,7 @@ public class FlightManager implements FlightManagerInterface{
 						listConcreteFlights.addAll(f4.getConcreteFlights());
 						listConcreteFlights.addAll(f5.getConcreteFlights());
 						listConcreteFlights.addAll(f6.getConcreteFlights());
-						listConcreteFlights.addAll(f7.getConcreteFlights());
+						listConcreteFlights.addAll(f7.getConcreteFlights());*/
 			
 		    } else {
 		        System.out.println("Using existing flights from database");
@@ -232,10 +232,10 @@ public class FlightManager implements FlightManagerInterface{
 			return null; 
 		}
 
-		@WebMethod
+		/*@WebMethod
 		public List<ConcreteFlight> getConcreteFlights2(){
 			return listConcreteFlights;	
-		}
+		}*/
 		
 		@WebMethod
 		public ConcreteFlight getConcreteFlight(String concreteFlightCode){

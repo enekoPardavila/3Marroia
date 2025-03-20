@@ -20,3 +20,25 @@ Type domain.Flight is not enhanced.
 [2025-03-20 10:08:11 #3 type] 
 Type domain.ConcreteFlight is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:07:50 #1 store] 
+Database 'C:\Users\eneko\Documents\3Marroia\MarroiaService\flights.odb' is opened by 14136@enekoParda
+
+[2025-03-20 11:07:51 #2 type] 
+Type domain.Flight is not enhanced.
+
+[2025-03-20 11:07:51 #3 type] 
+Type domain.ConcreteFlight is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-20 11:24:49 #1 store] 
+Database 'C:\Users\eneko\Documents\3Marroia\MarroiaService\flights.odb' is opened by 9464@enekoParda
+
+[2025-03-20 11:24:49 #2 type] 
+Type domain.Flight is not enhanced.
+
+[2025-03-20 11:24:49 #3 type] 
+Type domain.ConcreteFlight is not enhanced.
+

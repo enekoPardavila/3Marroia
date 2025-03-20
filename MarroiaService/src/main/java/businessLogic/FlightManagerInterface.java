@@ -24,8 +24,8 @@ public interface FlightManagerInterface{
 	public List<Flight> getFlights();
 	@WebMethod
 	public ConcreteFlight getConcreteFlight(String concreFlightCode);
-	@WebMethod
-	public List<ConcreteFlight> getConcreteFlights2();
+	//@WebMethod
+	//public List<ConcreteFlight> getConcreteFlights2();
 	@WebMethod
 	public List<ConcreteFlight> getDateConcreteFlights(Date d);
 	
