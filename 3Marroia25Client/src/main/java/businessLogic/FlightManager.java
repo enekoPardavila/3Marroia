@@ -33,19 +33,6 @@ public interface FlightManager {
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "getConcreteFlights2", targetNamespace = "http://businessLogic/", className = "businessLogic.GetConcreteFlights2")
-    @ResponseWrapper(localName = "getConcreteFlights2Response", targetNamespace = "http://businessLogic/", className = "businessLogic.GetConcreteFlights2Response")
-    @Action(input = "http://businessLogic/FlightManager/getConcreteFlights2Request", output = "http://businessLogic/FlightManager/getConcreteFlights2Response")
-    public List<ConcreteFlight> getConcreteFlights2();
-
-    /**
-     * 
-     * @param arg0
-     * @return
-     *     returns java.util.List<java.lang.String>
-     */
-    @WebMethod
-    @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "getArrivalCitiesFrom", targetNamespace = "http://businessLogic/", className = "businessLogic.GetArrivalCitiesFrom")
     @ResponseWrapper(localName = "getArrivalCitiesFromResponse", targetNamespace = "http://businessLogic/", className = "businessLogic.GetArrivalCitiesFromResponse")
     @Action(input = "http://businessLogic/FlightManager/getArrivalCitiesFromRequest", output = "http://businessLogic/FlightManager/getArrivalCitiesFromResponse")

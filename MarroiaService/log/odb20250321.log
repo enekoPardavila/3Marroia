@@ -1,0 +1,14 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-03-21 09:06:23 #1 store] 
+Database 'C:\Users\eneko\Documents\3Marroia\MarroiaService\flights.odb' is opened by 11956@enekoParda
+
+[2025-03-21 09:06:24 #2 type] 
+Type domain.Flight is not enhanced.
+
+[2025-03-21 09:06:24 #3 type] 
+Type domain.ConcreteFlight is not enhanced.
+
+[2025-03-21 09:07:52 #4 store] 
+Database 'C:\Users\eneko\Documents\3Marroia\MarroiaService\flights.odb' is closed by 11956@enekoParda
+

@@ -11,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.net.URL;
 import java.sql.SQLException;
 import java.util.Calendar;
 import java.util.Collection;
@@ -35,6 +36,9 @@ import javax.swing.border.EmptyBorder;
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
 
 public class FlightBooking extends JFrame {
 	
@@ -91,10 +95,11 @@ public class FlightBooking extends JFrame {
 			public void run() {
 				try {
 					FlightBooking frame = new FlightBooking();
-					FlightManager businessLogic = new FlightManagerService();
-					frame.setBusinessLogic(businessLogic);
-
-					//frame.setBusinessLogic(new FlightManagerService()); 
+					URL url = new URL("http://localhost:9999/ws?wsdl");		
+					QName qname = new QName("http://businessLogic/","FlightManagerService");
+					Service service = Service.create(url, qname);
+					FlightManager facade=service.getPort(FlightManager.class);
+					frame.setBusinessLogic(facade); 
 					frame.initializeCombo();
 					
 					frame.setVisible(true);
